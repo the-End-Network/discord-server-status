@@ -1,10 +1,16 @@
+
 const Discord = require("discord.js");
 const mcping = require('mc-ping-updated');
 const chalk = require('chalk');
 const escape = require('markdown-escape');
 const fs = require('fs');
-const keepAlive = require('./server');
+const express = require('express');
+const app = express();
+const port = 3000;
 
+app.get('/', (req, res) => res.send('This is that page, you know.'));
+
+app.listen(port, () => console.log(`Server Started`));
 
 const client = new Discord.Client();
 const settings = require('./config.json');
