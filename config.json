@@ -1,7 +1,7 @@
 {
-    "token":"YOUR_BOT_TOKEN_HERE",
-    "commandPrefix":"/",
-    "ip":"YOUR_SERVER_IP_HERE",
+    "token":"NzY2MTM1NzUwMTgwOTk1MDky.X4e9hA.Ah5TiU0LEWPsbzgcEOcjxC_1ZR8",
+    "commandPrefix":".",
+    "ip":"play.theend.link",
     "port":25565,
     "pingInterval":"30",
     "embedColor":"7289DA"

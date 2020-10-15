@@ -17,7 +17,7 @@ module.exports.mcUpdate = function (client, url) {
         var status = 'Server offline';
         console.log(body.motd);
         if(body.online) {
-            if((body.motd=="&cWe are under maintenance.")||(body.players.now>=body.players.max)){
+            if((body.motd=="")||(body.players.now>=body.players.max)){
                 client.user.setStatus('idle')
                 //.then(console.log)
                 .catch(console.error);

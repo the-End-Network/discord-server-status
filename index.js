@@ -3,6 +3,8 @@ const mcping = require('mc-ping-updated');
 const chalk = require('chalk');
 const escape = require('markdown-escape');
 const fs = require('fs');
+const keepAlive = require('./server');
+
 
 const client = new Discord.Client();
 const settings = require('./config.json');
